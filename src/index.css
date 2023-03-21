@@ -7,12 +7,43 @@ body {
 
 html,
 body {
-  width: 100vw;
+  max-width: 100%;
   height: 100%;
-
+  overflow-x: clip;
+  background: linear-gradient(111.04deg, #e2e2e2 0.39%, rgba(255, 255, 255, 0) 86.46%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.background1 {
+  position: absolute;
+  width: 442px;
+  height: 447px;
+  left: 100px;
+  top: 560px;
+  transform: rotate(55.73deg);
+}
+
+@media only screen and (max-width: 1900px) {
+  .background1 {
+    display: none;
+  }
+}
+
+.background2 {
+  position: absolute;
+  width: 588px;
+  height: 519px;
+  left: 1400px;
+  top: 250px;
+  transform: rotate(50deg);
+}
+
+@media only screen and (max-width: 1900px) {
+  .background2 {
+    display: none;
+  }
 }
