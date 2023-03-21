@@ -1,6 +1,6 @@
 .questions {
   width: 100%;
-  margin-top: 90px;
+  margin-top: 8vh;
   display: flex;
 }
 
@@ -8,7 +8,7 @@
   width: 184px;
   height: 4px;
   background: #00c368;
-  margin: 100px auto 0 auto;
+  margin: 9.3vh auto 0 auto;
 }
 
 .title {
@@ -148,6 +148,10 @@
   font-size: 1rem;
   margin: 0.9vh 7.8vw 0 3.8vw;
   color: #2e3a59;
+  }
+
+.hidden-text:last-child {
+  margin-bottom: 5vh;
 }
 
 .arrow {
@@ -164,11 +168,14 @@
 @media only screen and (max-width: 700px) {
   .questions {
     flex-flow: wrap;
+    padding-bottom: 30px;
   }
   .rightBlock {
+    flex: auto;
     order: 2;
   }
   .leftBlock {
+    flex: auto;
     order: 1;
   }
   .title {
@@ -177,9 +184,11 @@
   }
   .block {
     margin-top: 5vh;
-     }
+  }
 
-  .block-image{
+  .block-image,
+  .quote-image1,
+  .quote-image2 {
     display: none;
   }
   .text-span {
@@ -188,15 +197,64 @@
   .line {
     margin: 50px auto 0 auto;
   }
+
+  .quote {
+    padding: 0 2.6vw 0 4vw;
+  }
   .quote-photo {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-  position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
     width: 30vw;
   }
   .quote-text {
     padding: 0;
   }
+  .hidden-text:last-child {
+    margin-bottom: 0;
+  }
 
+
+  .quote-block {
+    display: block;
+    box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.24);
+    border-radius: 32px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .quote p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .quote-box {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+
+  .quote-right,
+  .quote-left {
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .quote-photo-mini1,
+  .quote-photo-mini2 {
+    position: relative;
+    width: 20vw;
+    height: 20vw;
+    margin: 0;
+  }
+  .quote-left-span {
+    position: absolute;
+    margin-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .quote-right {
+    margin-top: 10vh;
+  }
 }

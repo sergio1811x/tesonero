@@ -8,7 +8,6 @@ const Main = () => {
         <div className={'line-main'} />
         <div className={'title-main'}>Lorem ipsum, dolor sit amet consectetur</div>
         <div className={'about'}>
-          <img className={'main-image'} src={require('../../assets/images/image-main.png')} />
           <div className={'top_and_bottom '}>
             <div className={'about1 '}>
               <img className={'about-image'} src={require('../../assets/images/main1.png')} />
@@ -30,6 +29,7 @@ const Main = () => {
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
             </div>
+            <img className={'main-image'} src={require('../../assets/images/image-main.png')} />
             <div className={'about4'}>
               <img className={'about-image'} src={require('../../assets/images/main4.png')} />
               <p className={'about-text'}>

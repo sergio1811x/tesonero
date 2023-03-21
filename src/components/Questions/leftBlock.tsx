@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 
 const LeftBlock = () => {
-  const [hiddenTextIndex, setHiddenTextIndex] = useState([2]);
+  const [hiddenTextIndex, setHiddenTextIndex] = useState(2);
 
   const handleClickOpenText = (index: number) => {
-    const number = hiddenTextIndex.includes(index);
-    if (number) {
-      setHiddenTextIndex(hiddenTextIndex.filter((el) => el !== index));
-    } else setHiddenTextIndex((prev) => [...prev, index]);
+    setHiddenTextIndex(index);
   };
 
   return (
@@ -28,21 +25,17 @@ const LeftBlock = () => {
                 />
                 <span
                   onClick={() => handleClickOpenText(index)}
-                  className={
-                    hiddenTextIndex.includes(index) ? 'text-span green-color' : 'text-span'
-                  }
+                  className={hiddenTextIndex === index ? 'text-span green-color' : 'text-span'}
                 >
                   Lorem ipsum, dolor sit amet adipisicing elit.
                 </span>
                 <img
                   className={'arrow'}
-                  src={require(`../../assets/images/arrow${
-                    hiddenTextIndex.includes(index) ? 2 : 1
-                  }.png`)}
+                  src={require(`../../assets/images/arrow${hiddenTextIndex === index ? 2 : 1}.png`)}
                   onClick={() => handleClickOpenText(index)}
                 />
               </div>
-              <div className={hiddenTextIndex.includes(index) ? 'hidden-text' : 'hidden'}>
+              <div className={hiddenTextIndex === index ? 'hidden-text' : 'hidden'}>
                 Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit
                 exercitationem laborum cupiditate magnam eaque quae delenit
               </div>
