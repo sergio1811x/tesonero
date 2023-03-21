@@ -11,11 +11,14 @@ const RightBlock = () => {
 
           <div className={'quote-text'}>
             <img className={'quote-image1'} src={require('../../assets/images/quotes1.png')} />
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quas, aut
-            consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate
-            magnam eaque quae deleniti, iste nisi expedita, provident excepturi officia! Porro ab
-            rerum omnis magnam eligendi error nobis dolore? Porro ab rerum omnis magnam eligendi
-            error nobis dolore? Porro ab rerum omnis magnam eligendi error nobis dolore?
+            <span>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quas, aut
+              consectetur animi autem aliquid consequuntur suscipit exercitationem laborum
+              cupiditate magnam eaque quae deleniti, iste nisi expedita, provident excepturi
+              officia! Porro ab rerum omnis magnam eligendi error nobis dolore? Porro ab rerum omnis
+              magnam eligendi error nobis dolore? Porro ab rerum omnis magnam eligendi error nobis
+              dolore?
+            </span>
           </div>
           <div className={'quote-bottom'}>
             <p className={'quote-text'}>Jane Doe</p>

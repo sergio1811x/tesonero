@@ -51,6 +51,7 @@
   padding-left: 14vw;
   line-height: 150%;
   color: #2e3a59;
+
 }
 
 .quote-bottom {
@@ -148,7 +149,7 @@
   font-size: 1rem;
   margin: 0.9vh 7.8vw 0 3.8vw;
   color: #2e3a59;
-  }
+}
 
 .hidden-text:last-child {
   margin-bottom: 5vh;
@@ -208,13 +209,19 @@
     position: relative;
     width: 30vw;
   }
-  .quote-text {
+  .quote-text  {
     padding: 0;
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
   }
+  .quote-text  {
+    padding: 10px;
+  }
+
   .hidden-text:last-child {
     margin-bottom: 0;
   }
-
 
   .quote-block {
     display: block;
@@ -256,5 +263,11 @@
 @media only screen and (max-width: 400px) {
   .quote-right {
     margin-top: 10vh;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .questions {
+    margin-top: 4vh;
   }
 }
