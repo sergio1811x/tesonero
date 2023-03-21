@@ -254,20 +254,24 @@
     height: 20vw;
     margin: 0;
   }
-  .quote-left-span {
-    position: absolute;
-    margin-left: 10px;
-  }
 }
 
 @media only screen and (max-width: 400px) {
   .quote-right {
-    margin-top: 10vh;
+    margin-top: 6vh;
   }
 }
 
 @media only screen and (max-width: 700px) {
   .questions {
     margin-top: 4vh;
+  }
+  .quote-box p {
+    margin: 0;
+    text-align: left;
+
+  }
+  .quote-box .quote-text {
+    padding: 0;
   }
 }

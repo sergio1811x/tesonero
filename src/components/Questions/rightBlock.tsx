@@ -36,7 +36,7 @@ const RightBlock = () => {
           </div>
           <div className={'quote-text quote-left'}>
             <img className={'quote-photo-mini2'} src={require('../../assets/images/photo.png')} />
-            <span className={'quote-left-span'}>
+            <span>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quas, aut
               consectetur animi autem aliquid
               <p>Jane Doe</p>
