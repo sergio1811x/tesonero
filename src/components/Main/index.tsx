@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import SwiperBlock from './Swiper';
 
 const Main = () => {
   return (
@@ -16,7 +17,7 @@ const Main = () => {
               </p>
             </div>
             <div className={'about2 '}>
-              <img className={'about-image'} src={require('../../assets/images/main3.png')} />
+              <img className={'about-image'} src={require('../../assets/images/main2.png')} />
               <p className={'about-text'}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
@@ -24,7 +25,7 @@ const Main = () => {
           </div>
           <div className={'middle'}>
             <div className={'about3'}>
-              <img className={'about-image'} src={require('../../assets/images/main2.png')} />
+              <img className={'about-image'} src={require('../../assets/images/main3.png')} />
               <p className={'about-text'}>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               </p>
@@ -51,6 +52,9 @@ const Main = () => {
               </p>
             </div>
           </div>
+        </div>
+        <div className={'swiper-block'}>
+          <SwiperBlock />
         </div>
       </div>
     </div>
