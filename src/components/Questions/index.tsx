@@ -1,6 +1,6 @@
 import React from 'react';
-import RightBlock from './rightBlock';
-import LeftBlock from './leftBlock';
+import RightBlock from './RightBlock';
+import LeftBlock from './LeftBlock';
 import './index.css';
 
 const Questions = () => {
