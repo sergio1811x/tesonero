@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tesonero/static/css/main.e9ea63bc.css",
+    "main.css": "/tesonero/static/css/main.46f2dc0f.css",
     "main.js": "/tesonero/static/js/main.5d571f63.js",
     "static/media/background2.png": "/tesonero/static/media/background2.19984400406d3f971f73.png",
     "static/media/image-main.png": "/tesonero/static/media/image-main.edd17234ad942b490a02.png",
@@ -11,11 +11,11 @@
     "static/media/main5.png": "/tesonero/static/media/main5.464dd8fb9ea0f75abe79.png",
     "static/media/main3.png": "/tesonero/static/media/main3.89ba51c8941c5ddb9c2d.png",
     "index.html": "/tesonero/index.html",
-    "main.e9ea63bc.css.map": "/tesonero/static/css/main.e9ea63bc.css.map",
+    "main.46f2dc0f.css.map": "/tesonero/static/css/main.46f2dc0f.css.map",
     "main.5d571f63.js.map": "/tesonero/static/js/main.5d571f63.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9ea63bc.css",
+    "static/css/main.46f2dc0f.css",
     "static/js/main.5d571f63.js"
   ]
 }
