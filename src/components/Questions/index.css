@@ -51,7 +51,6 @@
   padding-left: 14vw;
   line-height: 150%;
   color: #2e3a59;
-
 }
 
 .quote-bottom {
@@ -170,6 +169,7 @@
   .questions {
     flex-flow: wrap;
     padding-bottom: 30px;
+    margin-top: 4vh;
   }
   .rightBlock {
     flex: auto;
@@ -185,6 +185,7 @@
   }
   .block {
     margin-top: 5vh;
+    padding-left: 1vw;
   }
 
   .block-image,
@@ -209,13 +210,10 @@
     position: relative;
     width: 30vw;
   }
-  .quote-text  {
-    padding: 0;
+  .quote-text {
     display: flex;
     text-align: center;
     vertical-align: middle;
-  }
-  .quote-text  {
     padding: 10px;
   }
 
@@ -236,6 +234,9 @@
     margin-right: auto;
   }
 
+  .arrow {
+    margin-left: 4vw;
+  }
   .quote-box {
     flex-wrap: wrap;
     flex-direction: column-reverse;
@@ -247,6 +248,16 @@
     margin-top: 5vh;
   }
 
+  .quote-box p {
+    margin: 10px 0 0 0;
+    text-align: left;
+  }
+
+  .quote-box .quote-text {
+    padding: 0;
+    text-align: left;
+  }
+
   .quote-photo-mini1,
   .quote-photo-mini2 {
     position: relative;
@@ -254,24 +265,14 @@
     height: 20vw;
     margin: 0;
   }
+  .quote-photo-mini2 {
+    margin-right: 20px;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .quote-right {
     margin-top: 6vh;
   }
-}
 
-@media only screen and (max-width: 700px) {
-  .questions {
-    margin-top: 4vh;
-  }
-  .quote-box p {
-    margin: 0;
-    text-align: left;
-
-  }
-  .quote-box .quote-text {
-    padding: 0;
-  }
 }
