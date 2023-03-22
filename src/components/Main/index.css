@@ -62,7 +62,7 @@
 }
 
 .about-image {
-  width: 7.8vh;
+  width: 70px;
 }
 
 .main-image {
@@ -143,4 +143,5 @@
   .swiper-button-prev {
     margin-left: -7px ;
   }
+
 }

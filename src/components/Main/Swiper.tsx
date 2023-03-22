@@ -3,7 +3,9 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import './index.css';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { Pagination } from 'swiper';
+import 'swiper/css/pagination';
+
+import { A11y, Pagination, Scrollbar } from 'swiper';
 import { Navigation } from 'swiper';
 
 const SwiperBlock = () => {
@@ -11,9 +13,8 @@ const SwiperBlock = () => {
     <Swiper
       navigation={true}
       pagination={true}
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
       // @ts-ignore
-      modules={[Navigation, Pagination]}
-      scrollbar={{ draggable: true }}
     >
       {[...Array(6)].map((el, index) => {
         return (

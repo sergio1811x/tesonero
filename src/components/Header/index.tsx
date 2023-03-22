@@ -16,7 +16,7 @@ const Header = () => {
             <span
               key={index}
               onClick={() => setNavActive(index)}
-              className={navActive === index ? 'nav-text active' : 'nav-text '}
+              className={navActive === index ? 'nav-text active ' : 'nav-text '}
             >
               {el}
             </span>

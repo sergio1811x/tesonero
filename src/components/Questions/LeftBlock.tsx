@@ -4,7 +4,7 @@ const LeftBlock = () => {
   const [hiddenTextIndex, setHiddenTextIndex] = useState(2);
 
   const handleClickOpenText = (index: number) => {
-    setHiddenTextIndex(index);
+    hiddenTextIndex === index ? setHiddenTextIndex(10) : setHiddenTextIndex(index);
   };
 
   return (
