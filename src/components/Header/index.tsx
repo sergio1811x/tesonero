@@ -16,13 +16,13 @@ const Header = () => {
             <span
               key={index}
               onClick={() => setNavActive(index)}
-              className={navActive === index ? 'nav-text active ' : 'nav-text '}
+              className={navActive === index ? 'nav__text active ' : 'nav__text '}
             >
               {el}
             </span>
           ))}
         </div>
-        <span className={'nav-text active button'}>Button</span>
+        <span className={'nav__text active button'}>Button</span>
       </div>
     </>
   );

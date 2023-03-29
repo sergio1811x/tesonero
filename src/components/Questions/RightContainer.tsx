@@ -1,16 +1,16 @@
 import React from 'react';
 
-const RightBlock = () => {
+const RightContainer = () => {
   return (
-    <div className={'rightBlock'}>
+    <div className={'right'}>
       <div className={'line'} />
       <div className={'title'}>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</div>
       <div className={'quote'}>
-        <span className={'quote-block'}>
-          <img className={'quote-photo'} src={require('../../assets/images/photo.png')} />
+        <span className={'quote__block'}>
+          <img className={'quote__photo'} src={require('../../assets/images/photo.png')} />
 
-          <div className={'quote-text'}>
-            <img className={'quote-image1'} src={require('../../assets/images/quotes1.png')} />
+          <div className={'quote__text'}>
+            <img className={'quote__image1'} src={require('../../assets/images/quotes1.png')} />
             <span>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quas, aut
               consectetur animi autem aliquid consequuntur suscipit exercitationem laborum
@@ -20,22 +20,22 @@ const RightBlock = () => {
               dolore?
             </span>
           </div>
-          <div className={'quote-bottom'}>
-            <p className={'quote-text'}>Jane Doe</p>
-            <img className={'quote-image2'} src={require('../../assets/images/quotes2.png')} />
+          <div className={'quote__bottom'}>
+            <p className={'quote__text'}>Jane Doe</p>
+            <img className={'quote__image2'} src={require('../../assets/images/quotes2.png')} />
           </div>
         </span>
-        <div className={'quote-box'}>
-          <div className={'quote-text quote-right'}>
+        <div className={'quote__box'}>
+          <div className={'quote__text quote__right'}>
             <span>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quas, aut
               consectetur animi autem aliquid
               <p>Jane Doe</p>
             </span>
-            <img className={'quote-photo-mini1'} src={require('../../assets/images/photo.png')} />
+            <img className={'quote__photo_mini1'} src={require('../../assets/images/photo.png')} />
           </div>
-          <div className={'quote-text quote-left'}>
-            <img className={'quote-photo-mini2'} src={require('../../assets/images/photo.png')} />
+          <div className={'quote__text quote__left'}>
+            <img className={'quote__photo_mini2'} src={require('../../assets/images/photo.png')} />
             <span>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quas, aut
               consectetur animi autem aliquid
@@ -48,4 +48,4 @@ const RightBlock = () => {
   );
 };
 
-export default RightBlock;
+export default RightContainer;

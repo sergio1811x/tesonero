@@ -1,13 +1,13 @@
 import React from 'react';
-import RightBlock from './rightBlock';
-import LeftBlock from './leftBlock';
+import RightContainer from './RightContainer';
+import LeftContainer from './LeftContainer';
 import './index.css';
 
 const Questions = () => {
   return (
     <div className={'questions'}>
-      <RightBlock />
-      <LeftBlock />
+      <RightContainer />
+      <LeftContainer />
     </div>
   );
 };

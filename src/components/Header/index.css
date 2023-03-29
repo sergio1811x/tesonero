@@ -25,7 +25,7 @@
   cursor: pointer;
 }
 
-.nav-text {
+.nav__text {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -37,7 +37,7 @@
   height: 32px;
 }
 
-.nav-text:hover {
+.nav__text:hover {
 
   color: #494747;
 }

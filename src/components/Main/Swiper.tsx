@@ -19,7 +19,7 @@ const SwiperBlock = () => {
       {[...Array(6)].map((el, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className={'swiper-item'}>
+            <div className={'swiper__item'}>
               <img src={require(`../../assets/images/main${index + 1}.png`)} />
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisor sit amet consectetur adipisicing

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const LeftBlock = () => {
+const LeftContainer = () => {
   const [hiddenTextIndex, setHiddenTextIndex] = useState(2);
 
   const handleClickOpenText = (index: number) => {
@@ -8,9 +8,9 @@ const LeftBlock = () => {
   };
 
   return (
-    <div className={'leftBlock'}>
+    <div className={'left'}>
       <div className={'line'} />
-      <div className={'title title-left '}>
+      <div className={'title title__left '}>
         Lorem ipsum, dolor sit adipisicing elit.
         <p>Porro ab rerum omnis magnam eligendi error nobis dolore?</p>
       </div>
@@ -18,14 +18,14 @@ const LeftBlock = () => {
         {[...Array(5)].map((el, index) => {
           return (
             <div key={index} className={'block'}>
-              <div className={'image-and-text'}>
+              <div className={'image_and_text'}>
                 <img
-                  className={'block-image'}
+                  className={'block__image'}
                   src={require(`../../assets/images/image${index}.png`)}
                 />
                 <span
                   onClick={() => handleClickOpenText(index)}
-                  className={hiddenTextIndex === index ? 'text-span green-color' : 'text-span'}
+                  className={hiddenTextIndex === index ? 'text_span green_color' : 'text_span'}
                 >
                   Lorem ipsum, dolor sit amet adipisicing elit.
                 </span>
@@ -35,7 +35,7 @@ const LeftBlock = () => {
                   onClick={() => handleClickOpenText(index)}
                 />
               </div>
-              <div className={hiddenTextIndex === index ? 'hidden-text' : 'hidden'}>
+              <div className={hiddenTextIndex === index ? 'hidden__text' : 'hidden'}>
                 Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit
                 exercitationem laborum cupiditate magnam eaque quae delenit
               </div>
@@ -47,4 +47,4 @@ const LeftBlock = () => {
   );
 };
 
-export default LeftBlock;
+export default LeftContainer;

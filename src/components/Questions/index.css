@@ -21,7 +21,7 @@
   padding: 0 4.7vw 0 6.3vw;
 }
 
-.rightBlock {
+.right {
   flex: 1;
 }
 
@@ -30,22 +30,22 @@
   padding: 0 2.6vw 0 6.8vw;
 }
 
-.quote-photo {
+.quote__photo {
   position: absolute;
   width: 11.2vw;
 }
 
-.quote-image1 {
+.quote__image1 {
   margin: 0 0.6vw 0 -2.6vw;
 }
 
-.quote-image2 {
+.quote__image2 {
   width: 40px;
   height: 26px;
   margin-top: 5px;
 }
 
-.quote-text {
+.quote__text {
   font-weight: 400;
   font-size: 1rem;
   padding-left: 14vw;
@@ -53,7 +53,7 @@
   color: #2e3a59;
 }
 
-.quote-bottom {
+.quote__bottom {
   display: flex;
   justify-content: space-between;
 }
@@ -63,56 +63,56 @@
   margin-top: 5px;
 }
 
-.quote-box {
+.quote__box {
   display: flex;
   margin-bottom: 50px;
 }
 
-.quote-right {
+.quote__right {
   display: flex;
   width: 12.6vw;
   padding: 0;
   margin-top: 12.5vh;
 }
 
-.quote-photo-mini1 {
+.quote__photo_mini1 {
   width: 5.8vw;
   position: absolute;
   margin: -0.5vw 0.6vw 0 12vw;
 }
 
-.quote-left {
+.quote__left {
   width: 12.6vw;
 
   margin: 12.5vh 0 0 -2vw;
 }
 
-.quote-photo-mini2 {
+.quote__photo_mini2 {
   width: 5.8vw;
   position: absolute;
   margin: -0.4vw 0 0 -6.5vw;
 }
 
 @media only screen and (max-width: 1200px) {
-  .quote-right {
-    margin-top: 2vw;
+  .quote__right {
+    margin: 0;
   }
-  .quote-left {
-    margin-top: 2vw;
+  .quote__left {
+    margin: 0;
   }
 }
 
 /*________________________________________________________________________*/
 
-.leftBlock {
+.left {
   flex: 1;
 }
 
-.title-left {
+.title__left {
   margin: 1.7vh 3.5vw 0 3.5vw;
 }
 
-.title-left p {
+.title__left p {
   font-size: 1rem;
   font-weight: 400;
   color: #2e3a59;
@@ -123,12 +123,12 @@
   padding-left: 4.9vw;
 }
 
-.image-and-text {
+.image_and_text {
   display: flex;
   align-items: center;
 }
 
-.text-span {
+.text_span {
   color: #2e3a59;
   font-weight: 700;
   font-size: 1.5rem;
@@ -137,7 +137,7 @@
   cursor: pointer;
 }
 
-.green-color {
+.green_color {
   color: #00c368;
 }
 
@@ -145,13 +145,13 @@
   display: none;
 }
 
-.hidden-text {
+.hidden__text {
   font-size: 1rem;
   margin: 0.9vh 7.8vw 0 3.8vw;
   color: #2e3a59;
 }
 
-.hidden-text:last-child {
+.hidden__text:last-child {
   margin-bottom: 5vh;
 }
 
@@ -161,7 +161,7 @@
 }
 
 @media only screen and (max-width: 1224px) {
-  .text-span {
+  .text_span {
     margin: 0 3vw 0 1.8vw;
   }
 }
@@ -189,12 +189,12 @@
     padding-left: 1vw;
   }
 
-  .block-image,
-  .quote-image1,
-  .quote-image2 {
+  .block__image,
+  .quote__image1,
+  .quote__image2 {
     display: none;
   }
-  .text-span {
+  .text_span {
     font-size: 1rem;
   }
   .line {
@@ -204,25 +204,25 @@
   .quote {
     padding: 0 2.6vw 0 4vw;
   }
-  .quote-photo {
+  .quote__photo {
     display: block;
     margin-left: auto;
     margin-right: auto;
     position: relative;
     width: 30vw;
   }
-  .quote-text {
+  .quote__text {
     display: flex;
     text-align: center;
     vertical-align: middle;
     padding: 10px;
   }
 
-  .hidden-text:last-child {
+  .hidden__text:last-child {
     margin-bottom: 0;
   }
 
-  .quote-block {
+  .quote__block {
     display: block;
     box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.24);
     border-radius: 32px;
@@ -238,42 +238,42 @@
   .arrow {
     margin-left: 4vw;
   }
-  .quote-box {
+  .quote__box {
     flex-wrap: wrap;
     flex-direction: column-reverse;
     margin-bottom: 20px;
   }
 
-  .quote-right,
-  .quote-left {
+  .quote__right,
+  .quote__left {
     width: 100%;
     margin-top: 5vh;
   }
 
-  .quote-box p {
+  .quote__box p {
     margin: 10px 0 0 0;
     text-align: left;
   }
 
-  .quote-box .quote-text {
+  .quote__box .quote__text {
     padding: 0;
     text-align: left;
   }
 
-  .quote-photo-mini1,
-  .quote-photo-mini2 {
+  .quote__photo_mini1,
+  .quote__photo_mini2 {
     position: relative;
     width: 20vw;
     height: 20vw;
     margin: 0;
   }
-  .quote-photo-mini2 {
+  .quote__photo_mini2 {
     margin-right: 20px;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .quote-right {
+  .quote__right {
     margin-top: 6vh;
   }
 
