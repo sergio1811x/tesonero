@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tesonero/static/css/main.f93afafc.css",
-    "main.js": "/tesonero/static/js/main.95f04a48.js",
+    "main.css": "/tesonero/static/css/main.4c5f82f5.css",
+    "main.js": "/tesonero/static/js/main.1dfcbe4a.js",
     "static/media/background2.png": "/tesonero/static/media/background2.19984400406d3f971f73.png",
     "static/media/image-main.png": "/tesonero/static/media/image-main.edd17234ad942b490a02.png",
     "static/media/background1.png": "/tesonero/static/media/background1.f39704feaa196aae1401.png",
@@ -11,11 +11,11 @@
     "static/media/main5.png": "/tesonero/static/media/main5.464dd8fb9ea0f75abe79.png",
     "static/media/main3.png": "/tesonero/static/media/main3.89ba51c8941c5ddb9c2d.png",
     "index.html": "/tesonero/index.html",
-    "main.f93afafc.css.map": "/tesonero/static/css/main.f93afafc.css.map",
-    "main.95f04a48.js.map": "/tesonero/static/js/main.95f04a48.js.map"
+    "main.4c5f82f5.css.map": "/tesonero/static/css/main.4c5f82f5.css.map",
+    "main.1dfcbe4a.js.map": "/tesonero/static/js/main.1dfcbe4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f93afafc.css",
-    "static/js/main.95f04a48.js"
+    "static/css/main.4c5f82f5.css",
+    "static/js/main.1dfcbe4a.js"
   ]
 }
